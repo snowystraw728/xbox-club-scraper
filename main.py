@@ -37,4 +37,4 @@ if response.status_code == 200:
 #Print Response----------------------------------------
     print(f"{Fore.GREEN}XUIDs saved to xuids.club.{club_id}.txt{Style.RESET_ALL}")
 else:
-    print(f"{Fore.RED} Error: Status code {response.status_code}")
+    print(f"{Fore.RED}Error: Status code {response.status_code}")
